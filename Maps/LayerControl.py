@@ -1,10 +1,6 @@
 import folium
 import pandas as p
 
-# Latitude = -90 to 90
-# Longitude = -180 to 180
-# ll = requests.get("https://www.latlong.net")
-# /html/body/main/div[2]/div[1]/form/input[1]
 data = p.read_csv("Volcanoes.txt")
 lat = list(data["LAT"])
 lon = list(data["LON"])
